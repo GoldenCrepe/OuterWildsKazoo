@@ -27,4 +27,9 @@
   <ItemGroup>
     <Content Include="OuterWildsKazoo.csproj.user" />
   </ItemGroup>
+  <ItemGroup>
+	<None Include="assets/**">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+</ItemGroup>
 </Project>
